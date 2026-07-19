@@ -3,6 +3,12 @@
 NAVER LABS Europe의 DIVINE(다중 교사 증류, CVPR 2025/ECCV 2024)
 개념을 금융 리스크 도메인에 적용한 실험적 구현입니다.
 
+![architecture](distillation_concept.png)
+
+![result](distillation_efficiency.png)
+
+![Python](https://img.shields.io/badge/Python-3.13-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-Distillation-orange)
+
 ## 핵심 아이디어
 DIVINE이 DUSt3R(3D 공간 이해)와 Multi-HMR(인체 인식)이라는 서로 다른
 전문 모델의 지식을 하나의 경량 인코더로 압축했듯, 이 프로젝트는
