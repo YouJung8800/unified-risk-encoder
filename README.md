@@ -36,10 +36,6 @@
 
 통합 인코더(Student)는 두 전문가 모델(Teacher) 대비 **더 적은 파라미터로 더 높은 ROC-AUC 성능을 달성**하며, 지식 증류의 비즈니스 효용성을 입증했습니다.
 
-<p align="center">
-  <img src="distillation_efficiency_v2.png" width="100%" alt="Efficiency">
-</p>
-
 - **성능 시너지 (Synergy Effect):** 상호 이질적인 도메인(정형 vs 그래프)의 지식을 융합하여 단일 모델의 탐지 한계를 극복했습니다.
 - **인프라 최적화 (Infrastructure Optimization):** 파라미터 수를 **약 72% 경량화**하여, 실시간(Real-time) 트랜잭션 환경에서 필수적인 API 추론 지연시간(Latency)을 대폭 단축할 수 있는 근거를 마련했습니다.
 
