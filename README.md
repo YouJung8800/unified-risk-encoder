@@ -22,10 +22,6 @@
 
 기존의 단순 앙상블(Ensemble) 기법이 갖는 추론 속도(Inference Latency) 저하 문제를 해결하기 위해, **동적 지식 증류(Dynamic KD)** 기법을 도입했습니다.
 
-<p align="center">
-  <img src="distillation_concept.png" width="100%" alt="Architecture">
-</p>
-
 ### 기술적 구현 상세 (Technical Details)
 1. **Teacher Models (전문가 모델):** 
    - `Teacher 1 (CSS)`: Tabular Feature 기반의 MLP 인코더
